@@ -1,4 +1,4 @@
-import { latinToCyrillic, cyrillicToLatin } from "../src/transliterate";
+import { latinToCyrillic, cyrillicToLatin } from "../src/transliterate/transliterate";
 
 describe("Transliteration Logic Tests", () => {
   

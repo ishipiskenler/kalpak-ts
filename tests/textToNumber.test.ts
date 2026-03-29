@@ -1,4 +1,4 @@
-import { textToNumber } from "../src/textToNumber";
+import { textToNumber } from "../src/text-to-numbers/textToNumber";
 
 describe("Matnlarni Raqamlarga o'girish", () => {
     

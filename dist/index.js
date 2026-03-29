@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.numberToText = exports.textToNumber = exports.cyrillicToLatin = exports.latinToCyrillic = void 0;
+var transliterate_1 = require("./transliterate/transliterate");
+Object.defineProperty(exports, "latinToCyrillic", { enumerable: true, get: function () { return transliterate_1.latinToCyrillic; } });
+Object.defineProperty(exports, "cyrillicToLatin", { enumerable: true, get: function () { return transliterate_1.cyrillicToLatin; } });
+var textToNumber_1 = require("./text-to-numbers/textToNumber");
+Object.defineProperty(exports, "textToNumber", { enumerable: true, get: function () { return textToNumber_1.textToNumber; } });
+var numbersToText_1 = require("./numbers-to-text/numbersToText");
+Object.defineProperty(exports, "numberToText", { enumerable: true, get: function () { return numbersToText_1.numberToText; } });

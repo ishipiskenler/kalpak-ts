@@ -1,4 +1,4 @@
-import { numberToText } from "../src/numbers";
+import { numberToText } from "../src/numbers-to-text/numbers";
 
 describe("Sonlarni Qoraqalpoqcha so'zga o'girish", () => {
 
